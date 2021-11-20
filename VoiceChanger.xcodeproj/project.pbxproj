@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		FE604B95274594F700FDCF65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE604B94274594F700FDCF65 /* AppDelegate.swift */; };
 		FE604B97274594F700FDCF65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE604B96274594F700FDCF65 /* SceneDelegate.swift */; };
-		FE604B99274594F700FDCF65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE604B98274594F700FDCF65 /* ViewController.swift */; };
+		FE604B99274594F700FDCF65 /* RecordSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE604B98274594F700FDCF65 /* RecordSoundViewController.swift */; };
 		FE604B9C274594F700FDCF65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE604B9A274594F700FDCF65 /* Main.storyboard */; };
 		FE604B9E274594F800FDCF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE604B9D274594F800FDCF65 /* Assets.xcassets */; };
 		FE604BA1274594F800FDCF65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE604B9F274594F800FDCF65 /* LaunchScreen.storyboard */; };
 		FE604BAC274594F800FDCF65 /* VoiceChangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE604BAB274594F800FDCF65 /* VoiceChangerTests.swift */; };
 		FE604BB6274594F800FDCF65 /* VoiceChangerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE604BB5274594F800FDCF65 /* VoiceChangerUITests.swift */; };
 		FE604BB8274594F800FDCF65 /* VoiceChangerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE604BB7274594F800FDCF65 /* VoiceChangerUITestsLaunchTests.swift */; };
+		FEF207F12749630E0050C77F /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF207F02749630E0050C77F /* PlaySoundsViewController.swift */; };
+		FEF207F327497FC00050C77F /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF207F227497FC00050C77F /* playsoundsviewcontroller-audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		FE604B91274594F700FDCF65 /* VoiceChanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceChanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE604B94274594F700FDCF65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE604B96274594F700FDCF65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FE604B98274594F700FDCF65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE604B98274594F700FDCF65 /* RecordSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundViewController.swift; sourceTree = "<group>"; };
 		FE604B9B274594F700FDCF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE604B9D274594F800FDCF65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE604BA0274594F800FDCF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		FE604BB1274594F800FDCF65 /* VoiceChangerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceChangerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE604BB5274594F800FDCF65 /* VoiceChangerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceChangerUITests.swift; sourceTree = "<group>"; };
 		FE604BB7274594F800FDCF65 /* VoiceChangerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceChangerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEF207F02749630E0050C77F /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		FEF207F227497FC00050C77F /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				FE604B94274594F700FDCF65 /* AppDelegate.swift */,
 				FE604B96274594F700FDCF65 /* SceneDelegate.swift */,
-				FE604B98274594F700FDCF65 /* ViewController.swift */,
+				FE604B98274594F700FDCF65 /* RecordSoundViewController.swift */,
+				FEF207F02749630E0050C77F /* PlaySoundsViewController.swift */,
+				FEF207F227497FC00050C77F /* playsoundsviewcontroller-audio.swift */,
 				FE604B9A274594F700FDCF65 /* Main.storyboard */,
 				FE604B9D274594F800FDCF65 /* Assets.xcassets */,
 				FE604B9F274594F800FDCF65 /* LaunchScreen.storyboard */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE604B99274594F700FDCF65 /* ViewController.swift in Sources */,
+				FE604B99274594F700FDCF65 /* RecordSoundViewController.swift in Sources */,
+				FEF207F327497FC00050C77F /* playsoundsviewcontroller-audio.swift in Sources */,
 				FE604B95274594F700FDCF65 /* AppDelegate.swift in Sources */,
+				FEF207F12749630E0050C77F /* PlaySoundsViewController.swift in Sources */,
 				FE604B97274594F700FDCF65 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
